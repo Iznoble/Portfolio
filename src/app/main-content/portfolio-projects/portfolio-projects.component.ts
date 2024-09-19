@@ -2,11 +2,8 @@ import { Component, inject } from '@angular/core';
 import { HeadlineComponent } from './headline/headline.component';
 import { CommonModule } from '@angular/common';
 import { ProjectsService } from '../../projects.service';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
 
-AOS.init();
 
 @Component({
   selector: 'app-portfolio-projects',

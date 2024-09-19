@@ -1,10 +1,7 @@
 import { Component, inject } from '@angular/core';
 import { ProjectsService } from '../../projects.service';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
 
-AOS.init();
 
 @Component({
   selector: 'app-skills',
