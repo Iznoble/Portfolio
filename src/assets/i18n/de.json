@@ -1,0 +1,61 @@
+{
+  "HEADER": {
+    "ABOUT": "Über mich",
+    "SKILL": "Können"
+  },
+
+  "HEADLINE": {
+    "I_AM": "Ich bin",
+    "JOB": "FRONTEND ENTWICKLER",
+    "BTN": "Lass uns reden",
+    "SCROLL": "Scroll runter"
+  },
+
+  "ABOUT_ME": {
+    "TITLE": "Über mich",
+    "INFO": "Willkommen auf meiner Seite :) Ich interessiere mich sehr für Softwareentwicklung und bin bereit für alle Herausforderungen, die mich auf dieser Reise erwarten. Als ehemaliger Fachkraft für Lagerlogistik lernte ich Teamarbeit und selbstständiges Arbeiten kennen. Nun gut, und nimm diese Erfahrung mit in die Softwareentwicklung. Wenn ich kann, überzeugen Sie mich gerne mit meiner aktuellen Leistung zu einem Vorstellungsgespräch eingeladen.",
+    "LIGHTBUL": "Ich wohne in Wendelstein (Bayern), bin 30 Jahre alt und möchte gerne Neues lernen und umsetzen :)",
+    "PUZZLE": "Ich hoffe, dass ich Sie mit meinen Fähigkeiten davon überzeugen kann, dass ich in der Lage bin, neue Herausforderungen anzunehmen"
+  },
+
+  "SKILLS": {
+    "HEADLINE": "Können",
+    "INFO": "Ich habe Erfahrung in Bauprojekten mit verschiedenen Frontend-Technologien und -Konzepten gesammelt.",
+    "BTN": "Nehmen Sie Kontakt auf"
+  },
+
+  "PORTFOLIO": {
+    "INFO": "Diese Seite ist ein Beispiel meiner Arbeit! Scrollen Sie nach unten, um andere Projekte anzuzeigen, die ich entwickelt habe.",
+    "JOIN_INFO": "Vom Kanban-System inspirierter Aufgabenmanager. Erstellen und organisieren Sie Aufgaben mithilfe von Drag-and-Drop-Funktionen, weisen Sie Benutzer und Kategorien zu.",
+    "LOCO_INFO": "Spring-, Lauf- und Wurfspiel basierend auf einem objektorientierten Ansatz. Hilf Pepe, Münzen und Tabasco-Salsa zu finden, um gegen die verrückte Henne zu kämpfen."
+  },
+
+  "CONTACT": {
+    "HEADLINE": "Kontakt",
+    "QUESTION": "Haben Sie ein Problem zu lösen?",
+    "INFO": "Kontaktieren Sie mich über dieses Formular. Ich bin daran interessiert, von Ihnen zu hören, Ihre Ideen kennenzulernen und mit meiner Arbeit zu Ihren Projekten beizutragen.",
+    "NEED": "Brauchen Sie einen Frontend Entwickler?",
+    "BOLD_TEXT": "Kontaktieren Sie mich!"
+  },
+
+  "FORM": {
+    "PH_NAME": "Ihr Name",
+    "PH_EMAIL": "Ihre E-mail",
+    "PH_MESSAGE": "Ihre Nachricht",
+    "RED_NAME": "Bitte geben Sie Ihren Namen ein",
+    "RED_EMAIL": "Bitte geben Sie Ihre E-Mail ein",
+    "RED_MESSAGE": "Bitte geben Sie Ihre Nachricht ein",
+    "RED_POLICY": "Bitte akzeptieren Sie die Datenschutzerklärung",
+    "TEXT1": "Ich habe die",
+    "POLICY": "Datenschutzerklärung",
+    "TEXT2": "gelesen und stimme die Vereinbarung wie beschrieben zu",
+    "BUTTON": "Nachricht senden :)",
+    "SUCCESS": "E-Mail erfolgreich versendet!"
+  },
+
+  "IMPRINT": {
+    "FOOTER": "Impressum"
+  } 
+
+  
+}

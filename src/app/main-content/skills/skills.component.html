@@ -1,0 +1,28 @@
+<div class="mobile-btn">
+  <a href="#contact"
+    ><button>{{ "SKILLS.BTN" | translate }}</button></a
+  >
+</div>
+
+<div data-aos="fade-right" class="icons">
+  @for (symbol of iconArray.skillIcons; track iconArray) {
+  <p>
+    <img
+      (mouseover)="jump($event)"
+      (mouseleave)="removeAnimation($event)"
+      src="./../../../assets/img/icons/{{ symbol.icon }}"
+    />{{ symbol.iconText }}
+  </p>
+  }
+</div>
+
+<div data-aos="fade-left" class="text-and-button">
+  <div class="headline">
+    <h2>{{ "SKILLS.HEADLINE" | translate }}</h2>
+    <img src="./../../../assets/img/icons/green_line.png" />
+  </div>
+  <span>{{ "SKILLS.INFO" | translate }}</span>
+  <a href="#contact"
+    ><button>{{ "SKILLS.BTN" | translate }}</button></a
+  >
+</div>

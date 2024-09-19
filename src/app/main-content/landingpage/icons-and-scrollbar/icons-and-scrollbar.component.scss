@@ -1,0 +1,75 @@
+.icons {
+  width: 373px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 42px;
+  > .green-line {
+    width: 100px;
+  }
+  > .aktiv-hover {
+    height: 30px;
+    cursor: pointer;
+    > img {
+      height: 35px;
+      &:hover {
+        height: 40px;
+      }
+    }
+  }
+}
+
+.scrolltext {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 160px;
+  > span {
+    position: relative;
+    animation-name: upAndDown;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform: rotate(90deg);
+    font-size: 23px;
+  }
+  > img {
+    width: 16px;
+    height: 16px;
+  }
+
+  @keyframes upAndDown {
+    0% {
+      top: -50px;
+    }
+    100% {
+      top: 0px;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .icons {
+    gap: 80px;
+  }
+
+  .scrolltext {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .icons {
+    gap: 50px;
+  }
+}
+
+@media (max-width: 410px) {
+  .icons {
+    gap: 30px;
+    > .green-line {
+      width: 56px;
+    }
+  }
+}

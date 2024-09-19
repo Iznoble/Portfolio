@@ -1,0 +1,42 @@
+<div ngClass="{{ head }}">
+  <div>
+    <span>D<b>e</b>nis</span>
+  </div>
+  <div class="links">
+    <div class="btn">
+      <button class="langbtn" (click)="switchLang.chanceLang('en')">En</button>
+      |
+      <button class="langbtn" (click)="switchLang.chanceLang('de')">De</button>
+    </div>
+    <a href="#about_me">{{ "HEADER.ABOUT" | translate }}</a>
+    <a href="#skills">{{ "HEADER.SKILL" | translate }}</a>
+    <a href="#portfolio">Portfolio</a>
+  </div>
+
+  <div class="pendel-div">
+    <button (click)="showMenu()" class="pendel-Button">
+      <div class="pendel"></div>
+      <div class="pendel"></div>
+      <div class="pendel"></div>
+    </button>
+  </div>
+</div>
+
+<div ngClass="{{ hidden }}">
+  <div ngClass="{{ mobileHead }}">
+    <span>D<b>e</b>nis</span>
+    <a (click)="closeMenu()">X</a>
+  </div>
+  <div ngClass="{{ links }}">
+    <a (click)="closeMenu()" href="#about_me">About me</a>
+    <a (click)="closeMenu()" href="#skills">Skills</a>
+    <a (click)="closeMenu()" href="#portfolio">Portfolio</a>
+    <a (click)="closeMenu()" href="#contact">Contact</a>
+    <div class="btn">
+      <button class="langbtn" (click)="switchLang.chanceLang('en')">En</button>
+      |
+      <button class="langbtn" (click)="switchLang.chanceLang('de')">De</button>
+    </div>
+  </div>
+</div>
+<div ngClass="{{ hiddenBg }}"></div>

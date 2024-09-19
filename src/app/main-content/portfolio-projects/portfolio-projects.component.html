@@ -1,0 +1,30 @@
+<app-headline class="headline"></app-headline>
+<img class="shadow" src="./../../../assets/img/green_shadow.png" />
+
+<div data-aos="fade-left" class="projects">
+  <div *ngFor="let codeProject of projectArray.hoverInfo">
+    <div
+      [ngClass]="{ project: true, hovered: codeProject.showInfo }"
+      (mouseenter)="codeProject.showInfo = true"
+      (mouseleave)="codeProject.showInfo = false"
+    >
+      <img src="./../../../assets/img/{{ codeProject.coverImg }}" />
+      <div *ngIf="codeProject.showInfo" [ngClass]="info">
+        <img src="./../../../assets/img/{{ codeProject.bgImage }}" />
+        <div class="link-btn">
+          <a href="{{ codeProject.gitRepositories }}" target="_blank"
+            ><button class="git-btn">Github</button></a
+          >
+          <a href="{{ codeProject.liveTest }}" target="_blank"
+            ><button style="background-color: #4b47ff">Live test</button></a
+          >
+        </div>
+        <div class="info-text">
+          <b>{{ codeProject.title }}</b>
+          <span>{{ codeProject.description | translate }}</span>
+          <p>{{ codeProject.usedLanguage }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,148 @@
+@media (max-width: 1090px) {
+  .headline .i-am {
+    width: 130px;
+    > span {
+      font-size: xx-large;
+    }
+  }
+
+  .headline .name-spacing {
+    width: 700px;
+    > span {
+      font-size: 64px;
+    }
+    > p {
+      font-size: 40px;
+    }
+  }
+}
+
+@media (max-width: 820px) {
+  .headline .i-am {
+    width: 130px;
+    > span {
+      font-size: xx-large;
+    }
+  }
+
+  .headline .name-spacing {
+    width: 700px;
+    > span {
+      font-size: 56px;
+    }
+    > p {
+      font-size: 32px;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .header {
+    gap: 0;
+    z-index: 4;
+  }
+
+  .landingpage {
+    > .test {
+      > .left {
+        top: 140px;
+        left: -80px;
+        width: 272px;
+        height: 290px;
+      }
+      > .right {
+        top: 270px;
+        width: 140px;
+        height: 274px;
+      }
+    }
+  }
+
+  .headline .i-am {
+    width: 97px;
+    > span {
+      font-size: x-large;
+    }
+  }
+
+  .headline .name-spacing {
+    width: 460px;
+    > span {
+      font-size: 48px;
+    }
+    > p {
+      font-size: 24px;
+    }
+  }
+}
+
+@media (max-width: 570px) {
+  .headline .i-am {
+    width: 76px;
+    > span {
+      font-size: larger;
+    }
+  }
+
+  .headline .name-spacing {
+    width: 410px;
+    > span {
+      font-size: 40px;
+    }
+    > p {
+      font-size: 24px;
+    }
+  }
+}
+
+@media (max-width: 470px) {
+  .headline .i-am {
+    width: 60px;
+    > span {
+      font-size: large;
+    }
+  }
+
+  .headline .name-spacing {
+    width: 320px;
+    > span {
+      font-size: 30px;
+    }
+    > p {
+      font-size: 16px;
+    }
+  }
+
+  .landingpage .talk-btn a {
+    > button {
+      margin-top: 0;
+      font-size: 16px;
+    }
+  }
+}
+
+@media (max-width: 360px) {
+  .landingpage .test .left {
+    top: 190px;
+    left: -80px;
+    width: 230px;
+    height: 250px;
+  }
+
+  .headline .i-am {
+    width: 39px;
+    > span {
+      font-size: x-small;
+    }
+  }
+
+  .headline .name-spacing {
+    width: 230px;
+    > span {
+      font-size: 20px;
+    }
+    > p {
+      font-size: 16px;
+    }
+  }
+}

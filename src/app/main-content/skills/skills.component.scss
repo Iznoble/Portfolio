@@ -1,0 +1,66 @@
+.icons {
+  width: 625px;
+  height: 649px;
+  gap: 91px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 50px;
+  > p {
+    display: flex;
+    flex-direction: column;
+    width: 60px;
+    height: 90px;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.text-and-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 572px;
+  height: 320px;
+  > .headline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    > h2 {
+      font-size: 90px;
+      margin: 0;
+    }
+  }
+  > span {
+    font-size: 16px;
+  }
+  > a {
+    > button {
+      width: 200px;
+      padding: 15px 30px 15px 30px;
+      border-radius: 10px;
+      background-color: #00bee8;
+      font-size: 23px;
+      color: white;
+      cursor: pointer;
+      &:hover {
+        width: 210px;
+        background-color: #4b47ff;
+      }
+    }
+  }
+}
+
+.mouseAnimation {
+  animation-name: upAndDown;
+  animation-duration: 0.5s;
+  animation-direction: alternate;
+}
+
+@keyframes upAndDown {
+  0% {
+    margin-top: 0;
+  }
+  100% {
+    margin-top: -20px;
+  }
+}

@@ -1,0 +1,198 @@
+@media (min-width: 1440px) {
+  .shadow {
+    display: none;
+  }
+}
+
+@media (max-width: 1300px) {
+  .projects {
+    > div {
+      > .project {
+        height: 500px;
+        width: 500px;
+        > img {
+          width: fit-content;
+          height: -webkit-fill-available;
+        }
+        > .hover-info {
+          height: 500px;
+          width: 500px;
+          > .link-btn {
+            height: 220px;
+            > a {
+              > button {
+                width: 120px;
+                font-size: 16px;
+              }
+            }
+          }
+          > .info-text {
+            height: 280px;
+            > b {
+              font-size: 24px;
+            }
+            > span {
+              font-size: 20px;
+            }
+            > p {
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1100px) {
+  .headline {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+
+  .shadow {
+    top: 2700px;
+    width: 320px;
+  }
+
+  .projects {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-left: 0px;
+    flex-direction: column;
+    height: 1100px;
+    align-items: center;
+    > div {
+      > .project {
+        height: 460px;
+        width: 460px;
+        > img {
+          width: fit-content;
+          height: -webkit-fill-available;
+        }
+        > .hover-info {
+          height: 460px;
+          width: 460px;
+          > .link-btn {
+            height: 200px;
+            > a {
+              > button {
+                width: 120px;
+                font-size: 16px;
+              }
+            }
+          }
+          > .info-text {
+            height: 260px;
+            > b {
+              font-size: 24px;
+            }
+            > span {
+              font-size: 20px;
+            }
+            > p {
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .shadow {
+    top: 3900px;
+    width: 320px;
+  }
+}
+
+@media (max-width: 500px) {
+  .shadow {
+    top: 4160px;
+    width: 250px;
+  }
+
+  .projects {
+    margin-top: 0;
+    > div {
+      > .project {
+        height: 350px;
+        width: 350px;
+
+        > .hover-info {
+          height: 350px;
+          width: 350px;
+          > .link-btn {
+            height: 160px;
+            > a {
+              > button {
+                width: 110px;
+                height: 48px;
+                font-size: 16px;
+              }
+            }
+          }
+          > .info-text {
+            height: 190px;
+            > b {
+              font-size: 16px;
+            }
+            > span {
+              font-size: 12px;
+            }
+            > p {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 380px) {
+  .shadow {
+    top: 4300px;
+    width: 160px;
+  }
+
+  .projects {
+    > div {
+      > .project {
+        height: 280px;
+        width: 280px;
+
+        > .hover-info {
+          height: 280px;
+          width: 280px;
+          > .link-btn {
+            height: 120px;
+            > a {
+              > button {
+                width: 110px;
+                height: 48px;
+                font-size: 16px;
+              }
+            }
+          }
+          > .info-text {
+            height: 160px;
+            > b {
+              font-size: 16px;
+            }
+            > span {
+              font-size: 12px;
+            }
+            > p {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

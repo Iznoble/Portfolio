@@ -1,0 +1,59 @@
+{
+  "HEADER": {
+    "ABOUT": "About me",
+    "SKILL": "Skills"
+  },
+
+  "HEADLINE": {
+    "I_AM": "I am",
+    "JOB": "FRONTEND DEVELOPER",
+    "BTN": "Lets Talk",
+    "SCROLL": "Scroll down"
+  },
+
+  "ABOUT_ME": {
+    "TITLE": "About me",
+    "INFO": "Welcome to my site :) I am very interested in software development and am ready for any challenges that await me on this journey. As a former warehouse logistics specialist, I got to know teamwork and independent work well and take this experience with me into software development. If I can convince you with my current performance, I would look forward to being invited to an interview.",
+    "LIGHTBUL": "I live in Wendelstein (Bavaria), I am 30 years old and would like to learn and implement new things :)",
+    "PUZZLE": "I hope I can convince you with my skills that I am capable of taking on new challenges"
+  },
+
+  "SKILLS": {
+    "HEADLINE": "Skills",
+    "INFO": "I have gained experience in building projects with various front end technologies and concepts.",
+    "BTN": "Get in touch"
+  },
+
+  "PORTFOLIO": {
+    "INFO": "This page is a sample of my work! scroll down to view other projects I have develped.",
+    "JOIN_INFO": "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.",
+    "LOCO_INFO": "Jump, run and throw game based on object-oriented approach. Help Pepe to find coins and tabasco salsa to fight against the crazy hen."
+  },
+
+  "CONTACT": {
+    "HEADLINE": "Contact",
+    "QUESTION": "Got a problem to solve?",
+    "INFO": "Contact me through this form, I am interested in hearing from you, knowing your ideas and contributing to your projects with my work.",
+    "NEED": "Need a Frontend developer?",
+    "BOLD_TEXT": "Contact me!"
+  },
+
+  "FORM": {
+    "PH_NAME": "Your name",
+    "PH_EMAIL": "Your E-mail",
+    "PH_MESSAGE": "Your Message...",
+    "RED_NAME": "Please enter your Name",
+    "RED_EMAIL": "Please enter your E-mail",
+    "RED_MESSAGE": "Please enter your Message",
+    "RED_POLICY": "Please accept the privacy policy",
+    "TEXT1": "I've read the",
+    "POLICY": "privacy policy",
+    "TEXT2": "and agree to the processing of my data as outlined.",
+    "BUTTON": "Send message :)",
+    "SUCCESS": "E-Mail send successfully!"
+  },
+
+  "IMPRINT": {
+    "FOOTER": "Imprint"
+  }
+}

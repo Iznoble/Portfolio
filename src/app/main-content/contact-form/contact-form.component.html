@@ -1,0 +1,89 @@
+<app-contact-headline></app-contact-headline>
+<div class="spacing-contact">
+  <div data-aos="fade-right" class="problem-text">
+    <div class="headline">
+      <img src="./../../../assets/img/icons/green_line.png" />
+      <h2>{{ "CONTACT.QUESTION" | translate }}</h2>
+    </div>
+    <span>{{ "CONTACT.INFO" | translate }}</span>
+    <p>
+      {{ "CONTACT.NEED" | translate }}
+      <b>{{ "CONTACT.BOLD_TEXT" | translate }}</b>
+    </p>
+  </div>
+
+  <form
+    data-aos="fade-left"
+    class="form"
+    (ngSubmit)="onSubmit(contactForm)"
+    #contactForm="ngForm"
+  >
+    <input
+      #name="ngModel"
+      [(ngModel)]="contactData.name"
+      type="text"
+      name="name"
+      placeholder="{{ 'FORM.PH_NAME' | translate }}"
+      required
+    />
+    <span *ngIf="!name.valid && name.touched" class="red-message">{{
+      "FORM.RED_NAME" | translate
+    }}</span>
+
+    <input
+      #email="ngModel"
+      [(ngModel)]="contactData.email"
+      type="email"
+      name="email"
+      placeholder="{{ 'FORM.PH_EMAIL' | translate }}"
+      pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}"
+      required
+    />
+    <span *ngIf="!email.valid && email.touched" class="red-message">{{
+      "FORM.RED_EMAIL" | translate
+    }}</span>
+
+    <textarea
+      #message="ngModel"
+      [(ngModel)]="contactData.message"
+      name="message"
+      placeholder="{{ 'FORM.PH_MESSAGE' | translate }}"
+      minlength="10"
+      required
+    ></textarea>
+    <span *ngIf="!message.valid && message.touched" class="red-message">{{
+      "FORM.RED_MESSAGE" | translate
+    }}</span>
+
+    <div class="checkbox">
+      <label class="container">
+        <input type="checkbox" (change)="isChecked()" />
+        {{ "FORM.TEXT1" | translate }}
+        <a href="policy">{{ "FORM.POLICY" | translate }} </a
+        >{{ "FORM.TEXT2" | translate }}
+        <span class="checkmark"></span>
+      </label>
+    </div>
+    <span
+      *ngIf="!checkboxChecked && contactForm.submitted"
+      class="red-message-privat-policy"
+      >{{ "FORM.RED_POLICY" | translate }}</span
+    >
+
+    <button
+      type="submit"
+      [class.disabled-button]="!contactForm.valid || !checkboxChecked"
+      [class.enabled-button]="contactForm.valid && checkboxChecked"
+    >
+      {{ "FORM.BUTTON" | translate }}
+    </button>
+    <div *ngIf="formSubmitted" class="green-message">
+      {{ "FORM.SUCCESS" | translate }}
+    </div>
+  </form>
+</div>
+<div class="playcing">
+  <a href="#head"
+    ><img class="up-btn" src="./../../../assets/img/icons/Go up button.png"
+  /></a>
+</div>
