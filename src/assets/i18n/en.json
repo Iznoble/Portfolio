@@ -55,6 +55,8 @@
 
   "IMPRINT": {
     "FOOTER": "Imprint",
-    "CONTACT": "Contact"
+    "CONTACT": "Contact",
+    "PHONE": "Phone",
+    "SOURCE": "Source"
   }
 }
