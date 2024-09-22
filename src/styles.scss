@@ -19,6 +19,11 @@ button {
   border: 0;
 }
 
+[data-aos] {
+  overflow-x: hidden;
+}
+
+
 @media (min-width: 1440px) {
 
   body {

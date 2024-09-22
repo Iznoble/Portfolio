@@ -52,6 +52,12 @@
   }
 }
 
+@media (min-width: 1440px) {
+  .footer {
+    width: 1440px;
+  }
+}
+
 @media (min-width: 700px) {
   .mobile-imprint {
     display: none;
