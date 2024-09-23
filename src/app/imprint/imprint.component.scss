@@ -3,6 +3,13 @@ div {
   margin: 42px 10px 42px 30px;
 }
 
+@media (min-width: 1440px) {
+  div {
+    font-size: 24px;
+    margin: 42px 10px 260px 30px;
+  }
+}
+
 @media (max-width: 750px) {
   div {
     font-size: 21px;
