@@ -26,10 +26,12 @@
     }
   }
   > a {
-    font-size: 40px;
-    cursor: pointer;
-    > b {
-      color: #00bee8;
+    > span {
+      font-size: 40px;
+      cursor: pointer;
+      > b {
+        color: #00bee8;
+      }
     }
   }
 }
