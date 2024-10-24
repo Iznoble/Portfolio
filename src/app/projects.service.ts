@@ -21,7 +21,7 @@ export class ProjectsService {
     },
     {
       icon: 'Property 1=Typescript.png',
-      iconText: 'Typescript',
+      iconText: 'TypeScript',
     },
     {
       icon: 'Property 1=html.png',

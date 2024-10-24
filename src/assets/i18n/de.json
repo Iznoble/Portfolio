@@ -13,9 +13,9 @@
 
   "ABOUT_ME": {
     "TITLE": "Über mich",
-    "INFO": "Willkommen auf meiner Seite :) Ich interessiere mich sehr für Softwareentwicklung und bin bereit für alle Herausforderungen, die mich auf dieser Reise erwarten. Als ehemaliger Fachkraft für Lagerlogistik lernte ich Teamarbeit und selbstständiges Arbeiten kennen. Nun gut, und nimm diese Erfahrung mit in die Softwareentwicklung. Wenn ich kann, überzeugen Sie mich gerne mit meiner aktuellen Leistung zu einem Vorstellungsgespräch eingeladen.",
-    "LIGHTBUL": "Ich wohne in Wendelstein (Bayern), bin 30 Jahre alt und möchte gerne Neues lernen und umsetzen :)",
-    "PUZZLE": "Ich hoffe, dass ich Sie mit meinen Fähigkeiten davon überzeugen kann, dass ich in der Lage bin, neue Herausforderungen anzunehmen"
+    "INFO": "Willkommen auf meiner Seite :) Ich interessiere mich sehr für Softwareentwicklung und bin bereit für alle Herausforderungen, die mich auf dieser Reise erwarten. Als ehemalige Fachkraft für Lagerlogistik lernte ich Teamarbeit und selbstständiges Arbeiten kennen. Diese Erfahrungen nehme ich mit in die Software Entwicklung.",
+    "LIGHTBUL": "Ich wohne in Wendelstein (Bayern), bin 30 Jahre alt und möchte gerne Neues lernen und umsetzen.",
+    "PUZZLE": "Ich hoffe, dass ich Sie mit meinen Fähigkeiten davon überzeugen kann, dass ich in der Lage bin, neue Herausforderungen anzunehmen."
   },
 
   "SKILLS": {
